@@ -41,4 +41,4 @@ In case of trouble there are debug informations inside LVGL. In the `ESP32_TFT_e
 #  define LV_LOG_LEVEL    LV_LOG_LEVEL_WARN
 ```
 
-After enabling log module and setting LV_LOG_LEVEL accordingly the output log is sent to the `Serial` port @ 115200 Bd.
+After enabling log module and setting LV_LOG_LEVEL accordingly the output log is sent to the `Serial` port @ 38400 Bd.

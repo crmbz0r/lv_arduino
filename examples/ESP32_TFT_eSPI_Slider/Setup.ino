@@ -5,7 +5,7 @@ void setup() {
   analogReadResolution(10);
   ledcWrite(10,768);
 
-  Serial.begin(115200); /* prepare for possible serial debug */
+  Serial.begin(38400); /* prepare for possible serial debug */
 
   lv_init();
 

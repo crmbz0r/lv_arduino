@@ -140,7 +140,7 @@ void printEvent(String Event, lv_event_t event)
 
 void setup() {
 
-  Serial.begin(115200); /* prepare for possible serial debug */
+  Serial.begin(38400); /* prepare for possible serial debug */
   pinMode(LED_PIN, OUTPUT);
   
   lv_init();

@@ -47,7 +47,7 @@ bool read_encoder(lv_indev_drv_t * indev, lv_indev_data_t * data)
 void setup()
 {
 
-    Serial.begin(115200); /* prepare for possible serial debug */
+    Serial.begin(38400); /* prepare for possible serial debug */
 
     lv_init();
 
